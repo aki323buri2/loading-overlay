@@ -1,5 +1,5 @@
-import starterReducers from '../lib/starterReducers';
+import loadingOverlayReducers from '../lib/loadingOverlayReducers';
 export const reducers = {
-	...starterReducers,  
+	...loadingOverlayReducers,  
 };
 export default reducers;

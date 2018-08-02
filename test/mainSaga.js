@@ -1,7 +1,7 @@
 import { put, call, fork } from 'redux-saga/effects';
-import starterSaga from '../lib/starterSaga';
+import loadingOverlaySaga from '../lib/loadingOverlaySaga';
 export const mainSaga = function *()
 {
-	yield fork(starterSaga);
+	yield fork(loadingOverlaySaga);
 };
 export default mainSaga;

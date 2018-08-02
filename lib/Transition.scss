@@ -1,0 +1,22 @@
+$name: 'transition';
+.transition-container
+{
+	.#{$name}-enter
+	{
+		opacity: .01;
+	}
+	.#{$name}-enter.#{$name}-enter-active
+	{
+		opacity: 1;
+		#{$name}: all 500ms ease-in;
+	}
+	.#{$name}-exit
+	{
+		opacity: 1;
+	}
+	.#{$name}-exit.#{$name}-exit-active
+	{
+		opacity: .01;
+		transition: all 500ms ease-in;
+	}
+}

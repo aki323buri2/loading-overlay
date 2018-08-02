@@ -1,9 +1,9 @@
-# [project-name]
+# loading-overlay
 
 ```bash
-git clone /path/to/[project-name].git
+git clone /path/to/loading-overlay.git
 
-cd [project-name]
+cd loading-overlay
 npm install
 npx webpack
 npx webpack --watch -d

@@ -1,2 +1,2 @@
-import Starter from './lib/Starter';
-export default Starter;
+import LoadingOverlay from './lib/LoadingOverlay';
+export default LoadingOverlay;
