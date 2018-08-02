@@ -8,7 +8,7 @@ $name: 'transition';
 	.#{$name}-enter.#{$name}-enter-active
 	{
 		opacity: 1;
-		#{$name}: all 500ms ease-in;
+		transition: all 500ms ease-in;
 	}
 	.#{$name}-exit
 	{
